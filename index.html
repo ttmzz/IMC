@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>IMC</title>
+</head>
+<body>
+  <div class="container">
+      <h2 class="cabecalho">Cálculo de IMC</h2>
+
+      <form class="forms">
+         <div class="input">
+           <label>Peso (kg)</label>
+           <input class="valor" id="peso" type="text" required>
+         </div>
+         <div class="input">
+           <label>Altura (C)</label>
+           <input class="valor" id="altura" type="text" required>
+         </div>
+         <button class="btn">Gerar IMC</button>
+      </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
